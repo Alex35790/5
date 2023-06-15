@@ -1,0 +1,6 @@
+words = input("Enter a list of words separated by commas: ").split(",")
+word_set = set(words)
+print("Number of words:", len(words)) 
+second_list = input("Enter a list of words with the same number of characters: ").split(",") 
+dictionary = dict(zip(words, second_list))
+print(dictionary)
